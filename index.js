@@ -17,7 +17,7 @@ class Driver {
   }
   
   passengers() {
-    
+    store.trips.filter
   }
 }
 
