@@ -13,13 +13,13 @@ class Driver {
   }
   
   trips() {
-    
-  }
-  
-  passengers() {
     return store.trips.filter(trip => {
       return trip.driverId == this.id;
     });
+  }
+  
+  passengers() {
+    
   }
 }
 
